@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-handwriting: "Caveat", cursive;
+  
+  --color-brand: #E86A33;
+  --color-dark: #1A1A1A;
+  --color-light: #FAFAFA;
+}
+
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
