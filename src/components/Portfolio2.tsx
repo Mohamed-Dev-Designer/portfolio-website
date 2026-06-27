@@ -4,7 +4,7 @@ export function Portfolio2() {
   return (
     <section className="w-full relative overflow-hidden bg-white">
       <motion.img
-        src="/assets/portfolio-2.png"
+        src={`${import.meta.env.BASE_URL}assets/portfolio-2.png`}
         alt="Portfolio — Kabch.ma"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

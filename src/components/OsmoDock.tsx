@@ -91,7 +91,7 @@ export function OsmoDock() {
               </div>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-item__link"><img src="/assets/app.png" loading="eager" alt="app icon" className="image" /></a>
+              <a href="#" className="nav-item__link"><img src={`${import.meta.env.BASE_URL}assets/app.png`} loading="eager" alt="app icon" className="image" /></a>
               <div className="nav-item__tooltip">
                 <div>Hello</div>
               </div>

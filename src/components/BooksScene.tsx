@@ -207,7 +207,7 @@ export function BooksScene() {
       {/* Left side: Image */}
       <div className="absolute left-0 w-full md:w-[60%] h-full flex items-center justify-start pointer-events-none">
         <img
-          src="/assets/book.png"
+          src={`${import.meta.env.BASE_URL}assets/book.png`}
           alt="Book Presentation"
           className="w-full h-full object-contain object-left-bottom"
         />

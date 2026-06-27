@@ -29,7 +29,7 @@ export function Work() {
       </div>
 
       <motion.img
-        src="/assets/work.png"
+        src={`${import.meta.env.BASE_URL}assets/work.png`}
         alt="Work"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
